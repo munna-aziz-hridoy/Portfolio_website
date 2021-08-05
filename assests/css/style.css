@@ -767,12 +767,6 @@ img{
     transition: 0.5s;
 }
 
-@media screen and (min-width: 540px) {
-    .partner_imgs{
-        display: flex;
-    }
-}
-
 .img-1:hover{
     background-repeat: no-repeat;
     background-position: center center;
@@ -1011,6 +1005,7 @@ img{
     .home_container{
         grid-template-columns: repeat(2, 1fr);
         gap: 0;
+        align-item: center;
     }
     .home_content, .home_img{
         width: 125%;
@@ -1058,6 +1053,10 @@ img{
 
     .blog_description{
         width: 70%;
+    }
+    
+    .partner_imgs{
+        display: flex;
     }
 }
 
