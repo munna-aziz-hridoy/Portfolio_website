@@ -1022,7 +1022,7 @@ img{
 
     .overview_container{
         flex-direction: row;
-        align-items: center;
+        justify-content: center;
     }
 
     .award_img{
