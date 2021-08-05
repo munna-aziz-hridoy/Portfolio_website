@@ -1005,7 +1005,7 @@ img{
     .home_container{
         grid-template-columns: repeat(2, 1fr);
         gap: 0;
-        align-item: center;
+        align-items: center;
     }
     .home_content, .home_img{
         width: 125%;
