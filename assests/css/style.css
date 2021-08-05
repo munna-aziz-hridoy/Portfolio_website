@@ -1021,6 +1021,7 @@ img{
 
     .overview_container{
         flex-direction: row;
+        align-items: center;
     }
 
     .award_img{
